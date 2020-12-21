@@ -33,6 +33,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-node
     - http://nodejs.org/
     urls:
-    - https://github.com/ICpTrial/NewHelmRepo/blob/main/node-14.0.4.tgz
+    - https://github.com/ICpTrial/NewHelmRepo/raw/main/node-14.0.4.tgz
     version: 14.0.4
 generated: "2020-12-21T10:53:39.924959+09:00"
