@@ -1,28 +1,14 @@
 apiVersion: v1
 entries:
-  node:
-  - annotations:
-      category: Infrastructure
-    apiVersion: v2
-    appVersion: 14.15.3
-    created: "2020-12-21T10:53:39.932178+09:00"
-    description: Event-driven I/O server-side JavaScript environment based on V8
-    digest: 09b59e9f974a06d3e04c51f67d8eeae49cc1adcc4c9ed005fc5f09180beaaf70
-    home: https://github.com/bitnami/charts/tree/master/bitnami/node
-    icon: https://bitnami.com/assets/stacks/nodejs/img/nodejs-stack-110x117.png
-    keywords:
-    - node
-    - javascript
-    - nodejs
-    - git
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    name: node
-    sources:
-    - https://github.com/bitnami/bitnami-docker-node
-    - http://nodejs.org/
+  mynginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-21T12:33:25.448991+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 90044831c3c94cb4320fdd748e43546733a75059f108883c530f3127562a4d17
+    name: mynginx
+    type: application
     urls:
-    - https://github.com/ICpTrial/NewHelmRepo/node-14.0.4.tgz
-    version: 14.0.4
-generated: "2020-12-21T10:53:39.924959+09:00"
+    - https://github.com/ICpTrial/NewHelmRepo/mynginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-21T12:33:25.448197+09:00"
