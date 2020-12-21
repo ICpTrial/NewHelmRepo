@@ -9,7 +9,7 @@ entries:
     name: mynginx
     type: application
     urls:
-    - mynginx-0.1.0.tgz
+    - https://github.com/ICpTrial/NewHelmRepo/mynginx-0.1.0.tgz
     version: 0.1.0
   mynode:
   - apiVersion: v2
@@ -20,6 +20,6 @@ entries:
     name: mynode
     type: application
     urls:
-    - mynode-0.1.0.tgz
+    - https://github.com/ICpTrial/NewHelmRepo/mynode-0.1.0.tgz
     version: 0.1.0
 generated: "2020-12-21T12:58:16.998713+09:00"
