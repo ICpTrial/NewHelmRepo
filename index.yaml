@@ -3,12 +3,23 @@ entries:
   mynginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-21T12:33:25.448991+09:00"
+    created: "2020-12-21T12:58:16.999353+09:00"
     description: A Helm chart for Kubernetes
     digest: 90044831c3c94cb4320fdd748e43546733a75059f108883c530f3127562a4d17
     name: mynginx
     type: application
     urls:
-    - https://github.com/ICpTrial/NewHelmRepo/mynginx-0.1.0.tgz
+    - mynginx-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-21T12:33:25.448197+09:00"
+  mynode:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-21T12:58:17.000866+09:00"
+    description: A Helm chart for Kubernetes
+    digest: d9b2d85f6781967e26b450697eb360bb89706fee197a9bd18fb9a95772e76094
+    name: mynode
+    type: application
+    urls:
+    - mynode-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-21T12:58:16.998713+09:00"
