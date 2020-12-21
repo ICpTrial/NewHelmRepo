@@ -6,16 +6,6 @@ entries:
     apiVersion: v2
     appVersion: 14.15.3
     created: "2020-12-21T10:53:39.932178+09:00"
-    dependencies:
-    - condition: mongodb.enabled
-      name: mongodb
-      repository: https://charts.bitnami.com/bitnami
-      version: 10.x.x
-    - name: common
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - bitnami-common
-      version: 1.x.x
     description: Event-driven I/O server-side JavaScript environment based on V8
     digest: 09b59e9f974a06d3e04c51f67d8eeae49cc1adcc4c9ed005fc5f09180beaaf70
     home: https://github.com/bitnami/charts/tree/master/bitnami/node
@@ -33,6 +23,6 @@ entries:
     - https://github.com/bitnami/bitnami-docker-node
     - http://nodejs.org/
     urls:
-    - https://github.com/ICpTrial/NewHelmRepo/raw/main/node-14.0.4.tgz
+    - https://github.com/ICpTrial/NewHelmRepo/node-14.0.4.tgz
     version: 14.0.4
 generated: "2020-12-21T10:53:39.924959+09:00"
