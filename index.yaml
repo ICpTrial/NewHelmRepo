@@ -1,25 +1,36 @@
 apiVersion: v1
 entries:
+  myapache:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-21T13:20:38.00935+09:00"
+    description: A Helm chart for Kubernetes
+    digest: c6f3de2ccee42b1a5b433f51d9484480df30421b57b666728623e7611c871060
+    name: myapache
+    type: application
+    urls:
+    - https://github.com/ICpTrial/NewHelmRepo/myapache-0.1.0.tgz
+    version: 0.1.0
   mynginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-21T13:12:24.96839+09:00"
+    created: "2020-12-21T13:20:38.011491+09:00"
     description: A Helm chart for Kubernetes
     digest: 90044831c3c94cb4320fdd748e43546733a75059f108883c530f3127562a4d17
     name: mynginx
     type: application
     urls:
-    - mynginx-0.1.0.tgz
+    - https://github.com/ICpTrial/NewHelmRepo/mynginx-0.1.0.tgz
     version: 0.1.0
   mynode:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-21T13:12:24.969293+09:00"
+    created: "2020-12-21T13:20:38.011978+09:00"
     description: A Helm chart for Kubernetes
     digest: 34aad1e49e29421afb338e322b2897ac9291646cc59f1560f449c29e5be2c8f2
     name: mynode
     type: application
     urls:
-    - mynode-0.1.0.tgz
+    - https://github.com/ICpTrial/NewHelmRepo/mynode-0.1.0.tgz
     version: 0.1.0
 generated: "2020-12-21T12:58:16.998713+09:00"
